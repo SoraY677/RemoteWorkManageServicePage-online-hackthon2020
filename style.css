@@ -23,6 +23,30 @@ main>section:nth-child(2n) {
   background-color: #eaeaea;
 }
 
+ul.link{
+  display: flex;
+  padding:0;
+  justify-content: center;
+  list-style: none;
+}
+
+
+a.link{
+  color:#fff;
+  padding:0.4em;
+  text-decoration: none;
+  background-color: #3eba90;
+  border:1px solid #3eba90;
+  border-radius: 4px;
+  transition-duration: 0.3s;
+}
+
+a.link:hover{
+  color:#3eba90;
+  background-color:#fff;
+
+}
+
 h1>p {
   text-align: center;
 }
